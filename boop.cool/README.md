@@ -1,9 +1,3 @@
-# boop.cool
-Kewl ass site. Hope to create that web 1 kinda vibe
-
-
-
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
