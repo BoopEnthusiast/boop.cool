@@ -1,4 +1,5 @@
 import './global.css'
+import Head from 'next/head'
 
 
 export const metadata = {
@@ -12,7 +13,7 @@ export const metadata = {
     },
     generator: 'Next.js',
     applicationName: 'Boop\'s Kewl site',
-    keywords: ['Epic', 'Cool', 'Boop', 'Gamer'],
+    keywords: ['Boop', 'Cool', 'Personal'],
     authors: [{ name: 'Boop', url: 'https://boop.website' }],
     creator: 'Boop',
     publisher: 'Boop',
@@ -21,6 +22,21 @@ export const metadata = {
         address: false,
         telephone: false,
     },
+    openGraph: {
+        title: 'Boop',
+        description: 'Boop\' coolest site B)',
+        url: 'https://boop.cool',
+        siteName: 'Boop',
+        images: [
+            {
+                url: 'https://boop.website/images/logo.png', // Must be an absolute URL
+                width: 800,
+                height: 600,
+            },
+        ],
+        locale: 'en',
+        type: 'website',
+      },
 }
 
 
@@ -31,6 +47,12 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
+            <Head>
+                <meta property="og:locale:alternate" content="en_NZ" />
+                <meta property="og:locale:alternate" content="en_US" />
+                <meta property="og:locale:alternate" content="en_GB" />
+                <meta property="og:locale:alternate" content="en_AU" />
+            </Head>
             <body>{children}</body>
         </html>
     );
