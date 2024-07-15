@@ -9,10 +9,19 @@ export const metadata = {
 export default function About() {
     return (
         <>
-            <h1>About</h1>
-            <div>
-                Back to <Link href="/">Home</Link>
-            </div>
+            <tr>
+                <th>
+                    <h1>About</h1>
+                </th>            
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        Back to <Link href="/">Home</Link>
+                    </p>
+                </td>            
+            </tr>
+            
         </>
     );
 }

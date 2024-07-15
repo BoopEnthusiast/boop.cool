@@ -53,7 +53,13 @@ export default function RootLayout({
                 <meta property="og:locale:alternate" content="en_GB" />
                 <meta property="og:locale:alternate" content="en_AU" />
             </Head>
-            <body>{children}</body>
+            <body>
+                <table>
+                    <tbody>
+                        {children}
+                    </tbody>
+                </table>
+            </body>
         </html>
     );
 }
