@@ -1,26 +1,13 @@
 import Link from "next/link";
+import './home.css'
 
 
 const Home = () => {
     return (
         <>
-            <tr>
-                <th>
-                    <h1>Home</h1>
-                </th>
-            </tr>
-            <tr>
-                <td>
-                    <p>Hello World! This is the Home page</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>
-                        Visit the <Link href="/about">About</Link> page.
-                    </p>
-                </td>
-            </tr>
+            <h1 id='title'>Directory of my cool stuff</h1>
+            <p>Hello World! This is the Home page</p>
+            Visit the <Link href="/about">About</Link> page.
         </>
     );
 };

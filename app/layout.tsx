@@ -54,11 +54,7 @@ export default function RootLayout({
                 <meta property="og:locale:alternate" content="en_AU" />
             </Head>
             <body>
-                <table>
-                    <tbody>
-                        {children}
-                    </tbody>
-                </table>
+                {children}
             </body>
         </html>
     );

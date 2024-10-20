@@ -1,5 +1,9 @@
 body {
     background-color: magenta;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
 }
