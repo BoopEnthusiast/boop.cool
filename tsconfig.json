@@ -18,14 +18,16 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "typeRoots": ["./node_modules/@types", "./types"]
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
     "next.config.js",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "types/**/*.ts"
   ],
   "exclude": ["node_modules"]
 }

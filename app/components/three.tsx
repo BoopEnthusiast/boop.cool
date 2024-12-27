@@ -1,16 +1,20 @@
 'use client'
 
-import { Canvas } from "@react-three/fiber";
+import dynamic from 'next/dynamic'
+import { Suspense } from 'react'
 
-export default function App() {
-return (
-    <Canvas>
-      <mesh>
-        <boxGeometry args={[2, 2, 2]} />
-        <meshPhongMaterial />
-      </mesh>
-      <ambientLight intensity={0.1} />
-      <directionalLight position={[0, 0, 5]} color="red" />
-    </Canvas>
-);
+// Create a dynamic component with SSR disabled
+const Scene = dynamic(() => import('./scene'), {
+  ssr: false
+})
+
+// Main component that renders the Canvas
+export default function ThreeScene() {
+  return (
+    <div className="w-full h-screen">
+      <Suspense fallback={<div>Loading...</div>}>
+        <Scene />
+      </Suspense>
+    </div>
+  )
 }
