@@ -1,6 +1,8 @@
 @font-face {
     font-family: Kabisat;
-    src: url(./fonts/Kabisat-ItalicTall.ttf);
+    src: url(./fonts/kabisat-italictall.woff2);
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
@@ -25,4 +27,7 @@ body {
 
 h1 {
     font-family: Kabisat, Excelorate, 'Golden Girdle', Calibri;
+    font-size: 5vw;
+    line-height: 170%;
+    color: #f0f;
 }
