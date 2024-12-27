@@ -1,9 +1,6 @@
 
 import './home.css'
 import Header from "./components/header";
-import App from "./components/three";
-
-// app/page.tsx
 import dynamic from 'next/dynamic'
 
 const ClientWrapper = dynamic(() => import('./components/ClientWrapper'), {
