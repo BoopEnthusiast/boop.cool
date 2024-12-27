@@ -9,7 +9,7 @@ export const metadata = {
     },
     description: {
         template: '%s - Held on Boop\'s coolest domain',
-        default: 'A personal website from Boop the internet user, welcome to my coolest domain.',
+        default: 'A personal website from Boop The Internet User, welcome to my coolest domain.',
     },
     generator: 'Next.js',
     applicationName: 'Boop\'s Kewl site',
