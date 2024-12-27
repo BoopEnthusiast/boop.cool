@@ -2,6 +2,27 @@ import './global.css'
 import Head from 'next/head'
 
 
+export default function RootLayout({
+    children,
+}: {
+    children: React.ReactNode;
+}) {
+    return (
+        <html lang="en">
+            <Head>
+                <meta property="og:locale:alternate" content="en_NZ" />
+                <meta property="og:locale:alternate" content="en_US" />
+                <meta property="og:locale:alternate" content="en_GB" />
+                <meta property="og:locale:alternate" content="en_AU" />
+            </Head>
+            <body>
+                {children}
+            </body>
+        </html>
+    );
+}
+
+
 export const metadata = {
     title: {
       template: '%s | Boop\'s kool I swear',
@@ -37,25 +58,4 @@ export const metadata = {
         locale: 'en',
         type: 'website',
       },
-}
-
-
-export default function RootLayout({
-    children,
-}: {
-    children: React.ReactNode;
-}) {
-    return (
-        <html lang="en">
-            <Head>
-                <meta property="og:locale:alternate" content="en_NZ" />
-                <meta property="og:locale:alternate" content="en_US" />
-                <meta property="og:locale:alternate" content="en_GB" />
-                <meta property="og:locale:alternate" content="en_AU" />
-            </Head>
-            <body>
-                {children}
-            </body>
-        </html>
-    );
 }
