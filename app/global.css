@@ -1,19 +1,9 @@
-@font-face {
-    font-family: Kabisat;
-    src: url(./fonts/kabisat-italictall.woff2);
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Golden Girdle';
-    src: url(./fonts/Golden\ Girdle.otf);
-}
-
-@font-face {
-    font-family: Excelorate;
-    src: url(./fonts/Excelorate-Font.otf);
-}
+@font-face { font-family: Kabisat;
+    src: url(./fonts/kabisat-italictall.woff2);}
+@font-face { font-family: 'Golden Girdle';
+    src: url(./fonts/Golden\ Girdle.otf);}
+@font-face { font-family: Excelorate;
+    src: url(./fonts/Excelorate-Font.otf);}
 
 body {
     background-color: #FBE9FA;

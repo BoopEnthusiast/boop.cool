@@ -1,13 +1,13 @@
 import Link from "next/link";
 import './home.css'
+import './components/header.tsx'
+import Header from "./components/header.tsx";
 
 
 const Home = () => {
     return (
         <>
-            <h1>
-                Boop's Portfolio Site
-            </h1>
+            <Header></Header>
         </>
     );
 };

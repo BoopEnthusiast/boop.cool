@@ -1,0 +1,13 @@
+.header-text {
+    position: relative;
+    top: 3.37vw;
+    margin: 0;
+    font-size: 5.4vw;
+}
+
+@media (max-width: 768px) {
+    .header-text {
+        top: 3.1vw;
+        font-size: 6vw; 
+    }
+}
