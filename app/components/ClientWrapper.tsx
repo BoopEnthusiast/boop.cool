@@ -3,13 +3,13 @@
 
 import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
-import { OrbitControls } from '@react-three/drei'
+import { OrbitControls, AdaptiveDpr, AdaptiveEvents } from '@react-three/drei'
 
-function Box() {
+function Box({width, height, depth}) {
   return (
     <mesh>
-      <boxGeometry args={[2, 2, 2]} />
-      <meshPhongMaterial />
+      <boxGeometry args={[width, height, depth]} />
+      <meshStandardMaterial color="magenta" />
     </mesh>
   )
 }
@@ -19,10 +19,12 @@ export default function ClientWrapper() {
     <div className="w-full h-screen">
       <Canvas>
         <Suspense fallback={null}>
-          <Box />
+          <AdaptiveDpr pixelated />
+          <AdaptiveEvents />
+          <Box width={3} height={4} depth={2}/>
           <OrbitControls />
-          <ambientLight intensity={0.1} />
-          <directionalLight position={[0, 0, 5]} color="red" />
+          <ambientLight intensity={0.5} />
+          <directionalLight position={[0, 0, 5]} color="magenta" />
         </Suspense>
       </Canvas>
     </div>
