@@ -16,7 +16,7 @@ function Box({width, height, depth}) {
 
 export default function ClientWrapper() {
   return (
-    <div className="w-full h-screen">
+    <div>
       <Canvas>
         <Suspense fallback={null}>
           <AdaptiveDpr pixelated />

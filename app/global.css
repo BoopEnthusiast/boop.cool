@@ -5,7 +5,7 @@
 @font-face { font-family: Excelorate;
     src: url(./fonts/Excelorate-Font.otf);}
 
-body {
+html, body {
     background-color: #FBE9FA;
     font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     display: flex;
@@ -15,11 +15,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    height: 100%;
+    width: 100%;
 }
 
 h1 {
     font-family: Kabisat, Excelorate, 'Golden Girdle', Calibri;
     font-size: 5vw;
     line-height: 170%;
-    color: #f0f;
+    color: #ffb4fb;
 }

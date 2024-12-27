@@ -10,12 +10,10 @@ const ClientWrapper = dynamic(() => import('./components/ClientWrapper'), {
 
 const Home = () => {
     return (
-        <>  
-            <div>
-                <Header />
-                <ClientWrapper />
-            </div>
-        </>
+        <div>
+            <Header />
+            <ClientWrapper />
+        </div>
     );
 };
 

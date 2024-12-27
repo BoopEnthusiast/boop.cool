@@ -27,19 +27,8 @@ export default function Header() {
     }, []);
 
     return (
-        <div style={styles.header}>
+        <div className='header'>
             <h1 className='header-text'>{text}</h1>
         </div>
     )
-}
-
-const styles = {
-    header: {
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        width: '100%',
-        height: '12vw',
-        backgroundColor: '#000000',
-    },
 }
