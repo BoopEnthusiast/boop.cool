@@ -1,9 +1,28 @@
+@font-face {
+    font-family: Kabisat;
+    src: url(./fonts/Kabisat-ItalicTall.ttf);
+}
+
+@font-face {
+    font-family: 'Golden Girdle';
+    src: url(./fonts/Golden\ Girdle.otf);
+}
+
+@font-face {
+    font-family: Excelorate;
+    src: url(./fonts/Excelorate-Font.otf);
+}
+
 body {
-    background-color: magenta;
+    background-color: #FBE9FA;
     font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     margin: 0%;
+}
+
+h1 {
+    font-family: Kabisat, Excelorate, 'Golden Girdle', Calibri;
 }
