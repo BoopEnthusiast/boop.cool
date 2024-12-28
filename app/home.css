@@ -5,19 +5,22 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-  }
+    overflow: hidden;
+}
   
   
-  .canvas-wrapper {
+.canvas-wrapper {
     flex: 1;
     position: relative;
-  }
+}
   
   /* This ensures the Canvas fills its container */
-  .canvas-wrapper > div {
+.canvas-wrapper > div {
     /*position: absolute;*/
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-  }
+}
+
+  

@@ -25,3 +25,10 @@ h1 {
     line-height: 170%;
     color: #ffb4fb;
 }
+
+@supports (-webkit-touch-callout: none) {
+    .layout-container {
+      /* Fallback for iOS Safari */
+      height: -webkit-fill-available;
+    }
+  }
