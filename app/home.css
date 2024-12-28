@@ -15,7 +15,7 @@
   
   /* This ensures the Canvas fills its container */
   .canvas-wrapper > div {
-    position: absolute !important;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
