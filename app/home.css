@@ -1,6 +1,23 @@
-div {
-    height: 100%;
-    width: 100%;
-    display: flexbox;
+
+/* home.css */
+.layout-container {
+    height: 100vh;
+    display: flex;
     flex-direction: column;
-}
+    width: 100%;
+  }
+  
+  
+  .canvas-wrapper {
+    flex: 1;
+    position: relative;
+  }
+  
+  /* This ensures the Canvas fills its container */
+  .canvas-wrapper > div {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }

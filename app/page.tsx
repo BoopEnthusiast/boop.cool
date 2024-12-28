@@ -1,4 +1,3 @@
-
 import './home.css'
 import Header from "./components/header";
 import dynamic from 'next/dynamic'
@@ -10,15 +9,13 @@ const ClientWrapper = dynamic(() => import('./components/ClientWrapper'), {
 
 const Home = () => {
     return (
-        <div>
+        <div className="layout-container">
             <Header />
-            <ClientWrapper />
+            <div className="canvas-wrapper">
+                <ClientWrapper />
+            </div>
         </div>
     );
 };
-
-
-
-
 
 export default Home;
