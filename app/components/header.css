@@ -32,3 +32,13 @@
     }
 }
 
+.header-link {
+    text-decoration: none;
+    color: inherit; /* This keeps your original text color */
+    cursor: pointer;
+}
+
+.header-link:hover {
+    /* Add any hover effects you want */
+    opacity: 0.8;
+}

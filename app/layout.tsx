@@ -45,7 +45,7 @@ export const metadata = {
     },
     openGraph: {
         title: 'Boop',
-        description: 'Boop\' coolest site B)',
+        description: 'Boop\'s coolest site B)',
         url: 'https://boop.cool',
         siteName: 'Boop',
         images: [

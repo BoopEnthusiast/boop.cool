@@ -1,7 +1,8 @@
 'use client'
 
+import Link from 'next/link';
 import './header.css'
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, } from 'react';
 
 export default function Header() {
     
@@ -28,7 +29,9 @@ export default function Header() {
 
     return (
         <div className='header'>
-            <h1 className='header-text'>{text}</h1>
+            <Link className='header-link' href='/directory'>
+                <h1 className='header-text'>{text}</h1>
+            </Link>
         </div>
     )
 }

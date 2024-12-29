@@ -1,3 +1,4 @@
+import './games.css'
 import Link from "next/link";
 
 
