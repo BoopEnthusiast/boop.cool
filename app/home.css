@@ -1,5 +1,12 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
 
-/* home.css */
+
 .layout-container {
     height: 100vh;
     display: flex;
@@ -13,7 +20,8 @@
     flex: 1;
     position: relative;
 }
-  
+ 
+
   /* This ensures the Canvas fills its container */
 .canvas-wrapper > div {
     /*position: absolute;*/
