@@ -7,7 +7,7 @@ export const metadata = {
 }
 
 
-export default function About() {
+export default function Games() {
     return (
         <>
             <h1>Games</h1>
