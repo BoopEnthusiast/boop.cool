@@ -1,9 +1,9 @@
 @font-face { font-family: Kabisat;
-    src: url(./fonts/kabisat-italictall.woff2);}
+    src: url(/fonts/kabisat-italictall.woff2);}
 @font-face { font-family: 'Golden Girdle';
-    src: url(./fonts/Golden\ Girdle.otf);}
+    src: url(/fonts/Golden\ Girdle.otf);}
 @font-face { font-family: Excelorate;
-    src: url(./fonts/Excelorate-Font.otf);}
+    src: url(/fonts/Excelorate-Font.otf);}
 
 html, body {
     background-color: #FBE9FA;
