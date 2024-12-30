@@ -5,7 +5,7 @@ export const metadata = {
 export default function Directory() {
     return (
         <>
-            <h1>Portfolio</h1>
+            <h1>Directory</h1>
         </>
     )
 }
