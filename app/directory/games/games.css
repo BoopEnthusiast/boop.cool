@@ -1,5 +1,14 @@
-body {
-    display: flexbox;
-    align-items: center;
+.gamesPage {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('./Games.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
 }
 
+h1 {
+    color: #9b15f6;
+}

@@ -3,7 +3,7 @@
 
 import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
-import { OrbitControls, AdaptiveDpr, AdaptiveEvents, Text3D } from '@react-three/drei'
+import { OrbitControls, AdaptiveDpr, AdaptiveEvents, Text3D, Outlines } from '@react-three/drei'
 import { useState } from 'react'
 import Calibri from './Calibri_Regular.json'
 
@@ -17,7 +17,7 @@ function Box({width = 1, height = 1, depth = 1, x = 0, y = 0, z = 0, color = 'ma
   )
 }
 
-function Text({scale = 0.2, x = 0, y = 0, z = 0, text = 'Hello, World!', color = 'black', isLink = false, link = '', rotY = 0}) {
+function Text({scale = 0.2, x = 0, y = 0, z = 0, text = 'Hello, World!', color = 'black', isLink = false, link = '', rotY = 0, hasOutline = false}) {
   const [hovered, setHovered] = useState(false)
 
   return (
@@ -45,6 +45,7 @@ function Text({scale = 0.2, x = 0, y = 0, z = 0, text = 'Hello, World!', color =
     >
       {text}
       <meshStandardMaterial color={hovered ? 'magenta' : color}/>
+      {hasOutline && <Outlines />}
     </Text3D>
   )
 }
@@ -59,19 +60,19 @@ export default function ClientWrapper() {
 
           {/* Intro box */}
           <Box width={3} height={2.2} depth={0.5} y={0.95} z={0.75} color='#9b15f6'/>
-          <Text scale={0.3} x={-1.4} y={1.7} z={1} color='#fbe9fa'/>
+          <Text scale={0.3} x={-1.4} y={1.7} z={1} color='#fbe9fa' hasOutline={true}/>
           <Text x={-1.4} y={1.4} z={1} text='Use mouse/touch' color='#e6e7c9'/>
           <Text x={-1.4} y={1.19} z={1} text='controls to move.' color='#e6e7c9'/>
-          <Text scale={0.22} x={-1.4} y={0.8} z={1} text='LMB/One finger:' color='#c8ece4'/>
+          <Text scale={0.22} x={-1.4} y={0.8} z={1} text='LMB/One finger:' color='#c8ece4' hasOutline={true}/>
           <Text x={-1.4} y={0.59} z={1} text='Rotate' color='#c8ece4'/>
-          <Text scale={0.22} x={-1.4} y={0.2} z={1} text='RMB/Two fingers:' color='#f4def6'/>
+          <Text scale={0.22} x={-1.4} y={0.2} z={1} text='RMB/Two fingers:' color='#f4def6' hasOutline={true}/>
           <Text x={-1.4} y={-0.01} z={1} text='Pan' color='#f4def6'/>
           {/* Back text */}
           <Text x={0.1} y={0.8} z={0.5} rotY={Math.PI} text=':3' color='#f4def6'/>
 
           {/* Games box */}
           <Box width={3} height={5} depth={1} x={3.5} color='#e6abe3'/>
-          <Text scale={0.4} x={2.1} y={2} z={0.5} text='Games' color='#7d19eb' isLink link='/directory'/>
+          <Text scale={0.4} x={2.1} y={2} z={0.5} text='Games' color='#7d19eb' isLink link='/directory/games'/>
           <Text x={2.1} y={1.7} z={0.5} text='Tragedy!_' color='#7d19eb' isLink link='/directory/games#tragedy'/>
           <OrbitControls />
           <ambientLight intensity={0.5} />

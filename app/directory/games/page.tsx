@@ -9,11 +9,8 @@ export const metadata = {
 
 export default function Games() {
     return (
-        <>
+        <div className='gamesPage'>
             <h1>Games</h1>
-            <p>
-                Back to <Link href="/">Home</Link>
-            </p>
-        </>
+        </div>
     );
 }
