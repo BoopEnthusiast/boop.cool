@@ -1,4 +1,5 @@
 html, body {
+    background-color: #FBE9FA;
     display: flex;
     justify-content: center;
     flex-direction: column;

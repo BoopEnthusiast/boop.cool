@@ -1,9 +1,11 @@
-import styles from './directory.module.css'
+export const metadata = {
+    title: 'Games',
+}
 
 export default function Page({ children }: { children: React.ReactNode }) {
     return (
-        <main className={styles.directoryHolder}>
+        <>
             {children}
-        </main>
+        </>
     )
 }

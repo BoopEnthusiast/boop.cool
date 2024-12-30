@@ -1,14 +1,15 @@
-.gamesPage {
-    min-height: 100vh;
-    width: 100%;
-    background-image: url('./Games.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-}
-
 h1 {
     color: #9b15f6;
+    justify-self: center;
+}
+
+.parallax-bg {
+    justify-self: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    z-index: -1;
+    
 }
