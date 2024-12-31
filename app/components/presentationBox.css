@@ -2,14 +2,15 @@
     background-color: #fbe9fa99;
     border-radius: 30px;
     margin: 5%;
-    padding: 3%;
-    width: 60vw;
+    padding: 2%;
+    width: 90vw;
     height: 100%;
     display: flex;
 }
 
 .present-box > img {
     max-width: 30%;
+    border-radius: 30px;
 }
 
 .text-container {
@@ -19,7 +20,7 @@
     margin: 1%;
     justify-content: flex-start;
     transform: translateY(-30px);
-    font-size: larger;
+    font-size: 1.5vw;
 }
 
 .text-container h2 {
