@@ -1,6 +1,5 @@
 .present-box {
-    background-color: #fbe9fa;
-    opacity: 70%;
+    background-color: #fbe9fa99;
     border-radius: 30px;
     margin: 5%;
     padding: 3%;
@@ -10,5 +9,23 @@
 }
 
 .present-box > img {
-    max-width: 10vw;
+    max-width: 30%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    margin: 1%;
+    justify-content: flex-start;
+    transform: translateY(-30px);
+    font-size: larger;
+}
+
+.text-container h2 {
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    margin-top: 0;
 }
