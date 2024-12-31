@@ -17,7 +17,7 @@ export default function PresentBox({
 }: PresentBoxProps) {
     return (
         <div className='present-box'>
-            <img src={image} alt={imageAlt} />
+            <img src={image} alt={imageAlt} loading='lazy'/>
             <div className='text-container'>
                 <h2>
                     {link ? (
