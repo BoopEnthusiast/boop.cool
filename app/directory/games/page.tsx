@@ -6,10 +6,12 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 
 export default function Games() {
+    const calculatedSpeed = window.innerWidth * 0.0018
+
     return (
             <div className='gamesPage'>
                 <Parallax pages={2} style={{ top: '0', left: '0' }}>
-                    <ParallaxLayer offset={0} speed={1.9}>
+                    <ParallaxLayer offset={0} speed={calculatedSpeed}>
                         <div className='parallax-bg'>
                                 <img src={'/games/Games.jpg'} alt='background image with pink keyboard, two index controllers, and a pink mouse' />
                         </div> 
