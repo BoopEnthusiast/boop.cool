@@ -27,7 +27,7 @@ export default function Games() {
                             <PresentBox /> 
                             <PresentBox /> 
                             <PresentBox /> 
-                            <PresentBox title='Big project' id='mygame' description="I've been working on a rather large project for some time, it even has a programming language I'm writing from scratch... This is one that's definetly going on Steam/Epic. No telling what it might be..."/> 
+                            <PresentBox title='Big project' description="I've been working on a rather large project for some time, it even has a programming language I'm writing from scratch... This is one that's definetly going on Steam/Epic. No telling what it might be..."/> 
                         </div>
                     </ParallaxLayer>
                 </Parallax>
