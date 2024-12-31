@@ -1,32 +1,33 @@
 'use client'
 
-import { useEffect, useState } from 'react';
 import './games.css'
 import PresentBox from '../../components/PresentationBox';
-import SimpleParallax from 'simple-parallax-js';
+import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 
 export default function Games() {
-    const [offsetY, setOffsetY] = useState(0);
-    const handleScroll = () => setOffsetY(window.pageYOffset);
-
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-
-        return () => window.removeEventListener('scroll', handleScroll)
-    }, []);
-
     return (
             <div className='gamesPage'>
-                <div className='parallax-bg'>
-                    <SimpleParallax scale={1.1} orientation='left' delay={0} overflow>
-                        <img src={'/Games.jpg'} alt='background image' />
-                    </SimpleParallax>
-                </div> 
-                <h1>Games</h1> <br />
-                <PresentBox />
-                <PresentBox />
-                <PresentBox /> 
+                <Parallax pages={3} style={{ top: '0', left: '0' }}>
+                    <ParallaxLayer offset={0} speed={1.9}>
+                        <div className='parallax-bg'>
+                                <img src={'/games/Games.jpg'} alt='background image' />
+                        </div> 
+                    </ParallaxLayer>
+                    <ParallaxLayer offset={0} speed={1}>
+                        <div className='boxes'>
+                            <h1>Games</h1> <br />
+                            <PresentBox />
+                            <PresentBox />
+                            <PresentBox /> 
+                            <PresentBox /> 
+                            <PresentBox /> 
+                            <PresentBox /> 
+                            <PresentBox /> 
+                            <PresentBox /> 
+                        </div>
+                    </ParallaxLayer>
+                </Parallax>
             </div> 
     );
 }

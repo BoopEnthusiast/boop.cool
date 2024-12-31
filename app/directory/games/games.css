@@ -3,13 +3,13 @@ h1 {
     justify-self: center;
 }
 
-.parallax-bg {
-    justify-self: center;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 100%;
-    z-index: -1;
-    
+
+img {
+    max-width: 100%;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

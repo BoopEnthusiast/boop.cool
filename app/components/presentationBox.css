@@ -1,8 +1,14 @@
 .present-box {
-    background-color: blue;
+    background-color: #fbe9fa;
+    opacity: 70%;
     border-radius: 30px;
-    margin: 10%;
-    padding: 10%;
+    margin: 5%;
+    padding: 3%;
     width: 60vw;
     height: 100%;
+    display: flex;
+}
+
+.present-box > img {
+    max-width: 10vw;
 }
