@@ -10,7 +10,9 @@
 
 .present-box > img {
     max-width: 30%;
+    height: auto;
     border-radius: 3vw;
+    object-fit: contain;
 }
 
 .text-container {
@@ -20,7 +22,7 @@
     margin: 1%;
     justify-content: flex-start;
     transform: translateY(-15%);
-    font-size: 1.5vw;
+    font-size: 1.8vw;
 }
 
 .text-container h2 {
@@ -29,6 +31,7 @@
 
 .text-container p {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
