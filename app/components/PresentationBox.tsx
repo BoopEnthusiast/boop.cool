@@ -5,20 +5,28 @@ interface PresentBoxProps {
     imageAlt?: string;
     title?: string;
     description?: string;
+    link?: string;
 }
 
 export default function PresentBox({ 
     image = '', 
     imageAlt = '', 
     title = '', 
-    description = '' 
+    description = '',
+    link = ''
 }: PresentBoxProps) {
     return (
         <div className='present-box'>
             <img src={image} alt={imageAlt} />
             <div className='text-container'>
                 <h2>
-                    {title}
+                    {link ? (
+                        <a href={link}>
+                            {title}
+                        </a>
+                    ) : (
+                        title
+                    )}
                 </h2>
                 <p>
                     {description}

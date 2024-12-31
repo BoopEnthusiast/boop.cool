@@ -73,7 +73,8 @@ export default function ClientWrapper() {
           {/* Games box */}
           <Box width={3} height={5} depth={1} x={3.5} color='#e6abe3'/>
           <Text scale={0.4} x={2.1} y={2} z={0.5} text='Games' color='#7d19eb' isLink link='/directory/games'/>
-          <Text x={2.1} y={1.7} z={0.5} text='Tragedy!_' color='#7d19eb' isLink link='/directory/games#tragedy'/>
+          <Text x={2.1} y={1.7} z={0.5} text='Tragedy!_' color='#7d19eb' isLink link='/directory/games'/>
+          <Text x={2.1} y={1.4} z={0.5} text='Reverie Memory' color='#7d19eb' isLink link='/directory/games/' />
           <OrbitControls />
           <ambientLight intensity={0.5} />
           <directionalLight position={[3, 3, 5]} />
