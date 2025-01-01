@@ -31,6 +31,12 @@ export default function Games() {
                             description="Espionage office is a small game where you collect clues for 5 minutes as employees pick and up and put down pieces of paper in random locations. After those 5 minutes you have a small interview where the highest point total you can get is 12 points! It's just an OK game, I worked on 90% of it within the last few hours of the due date because my teammates weren't very forthcoming with their work. I believe we won the local game jam though, not very firce competition."/> 
                             <PresentBox image='/games/Flower.png' imageAlt='A picture of a pixellated flower' title='Flower Tower' link='https://boopenthusiast.itch.io/flower-tower'
                             description="This was my first game! Kind of, I had worked on projects previously but this was my first start-to-end game for a game jam. This is Flower Tower, a tower defense game made with 2 (and a half) others. It's not great and very buggy, figuratively and literally speaking."/> 
+                            <PresentBox image='/games/Cozy.png' imageAlt='A Lil Guy (plant-looking person) peeking up from the bottom of the frame' title='Cozy Potion Evolution' link='https://boopenthusiast.itch.io/cozy-potion-evolution'
+                            description="A game with adorable and amazing artwork from one of my teammates, the game is almost unbeatable but it's fun for a while. Deeply untested, this game's upgrades might not work at all. I had... a number of teammates that I have forgotten as part of a game jam. Fun fact: we were originally going to call it Cozy Potion Eugenics."/>
+                            <PresentBox />
+                            <PresentBox />
+                            <PresentBox />
+                            
                             <PresentBox title='Big project' description="I've been working on a rather large project for some time, it even has a programming language I'm writing from scratch... This is one that's definetly going on Steam/Epic. No telling what it might be..."/> 
                         </div>
                     </ParallaxLayer>
