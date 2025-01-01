@@ -23,7 +23,8 @@ export default function Games() {
                             description='Two player asynchonous multiplayer game made with two (and a half) wonderful other people as a group project for GAME201: Game Design I. I remember the lecturer writing a really, really sweet note about how he was baffled that we made an actually fun and interesting game, which is what this is! Got basically a perfect grade. It, of course, requires two people to play, but it is well worth the hassle for the 5-10 minutes you will play the game.'/>
                             <PresentBox image='/games/Snakerosion.png' imageAlt='A vibrant red snake coming toward the screen with a :3 face with the text "SNAKE-ROSION"' title='Snakerosion' link='https://boopenthusiast.itch.io/snake-rosion'
                             description="Snakerosion is a game made in only 3 hours! For 3 hours, it turned out pretty well. It's got super basic music, art, and gameplay. You fly around and stop acid rain from hitting the ground, that is all. It's a very simple game but it was a lot for only 3 hours by myself."/> 
-                            <PresentBox /> 
+                            <PresentBox image='/games/Space.png' imageAlt='A spaceship swerving to the side' title='Space To Repair' link='https://boopenthusiast.itch.io/space-to-repair'
+                            description="This is where games begin to get not-so-good. This is Space To Repair, you fly around in a spaceship avoiding asteroids and exit the cockpit to repair your ship from the inside. Space To Repair was my first time making two viewports - one for flying, and another for repairing. You can flip between both of them at the monitor that shows the flying. It's a pretty neat technique but not a great game."/> 
                             <PresentBox /> 
                             <PresentBox /> 
                             <PresentBox /> 
