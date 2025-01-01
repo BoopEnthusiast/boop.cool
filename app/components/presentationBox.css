@@ -13,6 +13,7 @@
     height: auto;
     border-radius: 3vw;
     object-fit: contain;
+    box-sizing: border-box;
 }
 
 .text-container {
