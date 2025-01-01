@@ -33,7 +33,8 @@ export default function Games() {
                             description="This was my first game! Kind of, I had worked on projects previously but this was my first start-to-end game for a game jam. This is Flower Tower, a tower defense game made with 2 (and a half) others. It's not great and very buggy, figuratively and literally speaking."/> 
                             <PresentBox image='/games/Cozy.png' imageAlt='A Lil Guy (plant-looking person) peeking up from the bottom of the frame' title='Cozy Potion Evolution' link='https://boopenthusiast.itch.io/cozy-potion-evolution'
                             description="A game with adorable and amazing artwork from one of my teammates, the game is almost unbeatable but it's fun for a while. Deeply untested, this game's upgrades might not work at all. I had... a number of teammates that I have forgotten as part of a game jam. Fun fact: we were originally going to call it Cozy Potion Eugenics."/>
-                            <PresentBox />
+                            <PresentBox image='/games/Mycelium.png' imageAlt='A mushroom person holding up a microphone with two little slugs with sunglasses heading towards it, the text "MYCELIUM MELODY" above it' title='Mycelium Melody' link='https://boopenthusiast.itch.io/mycelium-melody'
+                            description="We made this for 2 games jams at the same time! This meant two themes, a special object, and a limitation. We had almost a full small team of like 5 people on this, but I was showing people how to work with Godot most of the first day. It's an alright game. Kinda boring."/>
                             <PresentBox />
                             <PresentBox />
                             
