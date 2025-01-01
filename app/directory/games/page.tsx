@@ -8,8 +8,8 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 export default function Games() {
     return (
             <div className='gamesPage'>
-                <Parallax pages={3} style={{ top: '0', left: '0' }}>
-                    <ParallaxLayer offset={0} speed={1.9}>
+                <Parallax pages={3.6} style={{ top: '0', left: '0' }}>
+                    <ParallaxLayer offset={0} speed={1.25}>
                         <div className='parallax-bg'>
                                 <img src={'/games/Games.jpg'} alt='background image with pink keyboard, two index controllers, and a pink mouse' />
                         </div> 
@@ -35,7 +35,8 @@ export default function Games() {
                             description="A game with adorable and amazing artwork from one of my teammates, the game is almost unbeatable but it's fun for a while. Deeply untested, this game's upgrades might not work at all. I had... a number of teammates that I have forgotten as part of a game jam. Fun fact: we were originally going to call it Cozy Potion Eugenics."/>
                             <PresentBox image='/games/Mycelium.png' imageAlt='A mushroom person holding up a microphone with two little slugs with sunglasses heading towards it, the text "MYCELIUM MELODY" above it' title='Mycelium Melody' link='https://boopenthusiast.itch.io/mycelium-melody'
                             description="We made this for 2 games jams at the same time! This meant two themes, a special object, and a limitation. We had almost a full small team of like 5 people on this, but I was showing people how to work with Godot most of the first day. It's an alright game. Kinda boring."/>
-                            <PresentBox />
+                            <PresentBox image='/games/Necro.png' imageAlt='A terminal with errors in it and at the bottom in the enter line is the term "Micro Necro", it has some little people and ghosts to the right of it. It is in small pixel art.' title='Micro Necro' link='https://boopenthusiast.itch.io/micro-necro'
+                            description="This game is kinda meh, it's greatly untested too. I was showing people the ropes of gamedev most of the time, and then I wrote a basic terminal emulator. I'm proud of the codebase, not the final product. This is kind of where I learned to focus more on the product than the code."/>
                             <PresentBox image='/games/Zephyrinth.png' imageAlt='A very ugly image with the text "Zephyrinth" on it' title='Zephyrinth' link='https://boopenthusiast.itch.io/zephyrinth'
                             description="Pretty awful is how I'd describe this game, like Reverie Memory it's an asynchronous multiplayer game, go play that one, maybe leave this one till after with your friend. The game isn't so great, it was a disaster to work on, my teammates were useless, it was my first 3D game. There are a lot of excuses but at the end of the day it's just kinda shit."/>
                             
