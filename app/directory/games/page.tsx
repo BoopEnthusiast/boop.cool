@@ -8,7 +8,7 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 export default function Games() {
     return (
             <div className='gamesPage'>
-                <Parallax pages={3.6} style={{ top: '0', left: '0' }}>
+                <Parallax pages={3.7} style={{ top: '0', left: '0' }}>
                     <ParallaxLayer offset={0} speed={1.25}>
                         <div className='parallax-bg'>
                                 <img src={'/games/Games.jpg'} alt='background image with pink keyboard, two index controllers, and a pink mouse' />
