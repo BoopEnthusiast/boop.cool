@@ -71,10 +71,18 @@ export default function ClientWrapper() {
           <Text x={0.1} y={0.8} z={0.5} rotY={Math.PI} text=':3' color='#f4def6'/>
 
           {/* Games box */}
-          <Box width={3} height={5} depth={1} x={3.5} color='#e6abe3'/>
+          <Box width={3} height={4} depth={1} x={3.5} y={0.5} color='#e6abe3'/>
           <Text scale={0.4} x={2.1} y={2} z={0.5} text='Games' color='#7d19eb' isLink link='/directory/games'/>
           <Text x={2.1} y={1.7} z={0.5} text='Tragedy!_' color='#7d19eb' isLink link='/directory/games'/>
-          <Text x={2.1} y={1.4} z={0.5} text='Reverie Memory' color='#7d19eb' isLink link='/directory/games/' />
+          <Text x={2.1} y={1.4} z={0.5} text='Reverie Memory' color='#7d19eb' isLink link='/directory/games/'/>
+          <Text x={2.1} y={1.1} z={0.5} text='Snakerosion' color='#7d19eb' isLink link='/directory/games/'/>
+          <Text x={2.1} y={0.8} z={0.5} text='Space To Repair' color='#7d19eb' isLink link='/directory/games/'/>
+          <Text x={2.1} y={0.5} z={0.5} text="Breaking Partner's Dates" color='#7d19eb' isLink link='/directory/games/'/>
+          <Text x={2.1} y={0.2} z={0.5} text='Espionage Office' color='#7d19eb' isLink link='/directory/games/'/>
+          <Text x={2.1} y={-0.1} z={0.5} text='Flower Tower' color='#7d19eb' isLink link='/directory/games/'/>
+          <Text x={2.1} y={-0.4} z={0.5} text='Mycelium Melody' color='#7d19eb' isLink link='/directory/games/'/>
+          <Text x={2.1} y={-0.7} z={0.5} text='Micro Necro' color='#7d19eb' isLink link='/directory/games/'/>
+          <Text x={2.1} y={-1} z={0.5} text='Zephyrinth' color='#7d19eb' isLink link='/directory/games/'/>
           <OrbitControls />
           <ambientLight intensity={0.5} />
           <directionalLight position={[3, 3, 5]} />
