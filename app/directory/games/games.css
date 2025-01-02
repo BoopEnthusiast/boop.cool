@@ -3,20 +3,38 @@ h1 {
     justify-self: center;
 }
 
+.gamesPage {
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+}
 
-img {
+.parallax-container {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    object-fit: contain;
+    height: 100%;
+    z-index: 1; /* Lower z-index to keep it behind */
 }
 
 .parallax-bg {
+    top: 0;
+    width: 100vw;
+    height: 13701px;
     display: flex;
     justify-content: center;
     align-items: center;
+    object-fit: contain;
+    background-image: url('/games/Games.jpg');
+    background-position-x: 50%;
+    background-size: contain;
 }
 
 .boxes {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }

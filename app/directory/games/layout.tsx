@@ -1,11 +1,15 @@
-export const metadata = {
-    title: 'Games',
-}
+'use client'
+
+import { ParallaxProvider } from "react-scroll-parallax"
+
+
 
 export default function Page({ children }: { children: React.ReactNode }) {
     return (
         <>
-            {children}
+            <ParallaxProvider>
+                {children}
+            </ParallaxProvider>
         </>
     )
 }
