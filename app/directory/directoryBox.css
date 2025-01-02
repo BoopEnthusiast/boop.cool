@@ -1,0 +1,13 @@
+.directory-box {
+    background-color: #fbe9fa99;;
+    border-radius: 30px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    border: #000;
+    border-width: 5px;
+    border-style: inset;
+    border-color: #7d19eb;
+    box-shadow: inset 0px 0px 10px #7d19eb;
+    font-size: xx-large;
+}
