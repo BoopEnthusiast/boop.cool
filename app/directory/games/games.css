@@ -5,7 +5,14 @@ h1 {
 
 
 img {
-    max-width: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.parallax-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .boxes {
