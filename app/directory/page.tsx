@@ -10,15 +10,16 @@ export default function Directory() {
             <h1>Directory</h1><br />
             <DirectoryBox title="Games" description="All of the released games I've made." link="/directory/games"
             items={[
-                'Tragedy!_',
                 'Reverie Memory', 
                 'Snakerosion',
-                'Space To Repair',
-                "Breaking Partner's Dates",
-                'Espionage Office',
-                'Flower Tower',
+                'Tetraduel',
+                'Tragedy!_',
                 'Cozy Potion Evolution',
                 'Mycelium Melody',
+                'Space To Repair',
+                'Flower Tower',
+                "Breaking Partner's Dates",
+                'Espionage Office',
                 'Mini Necro',
                 'Zephyrinth',
                 ]}/>
