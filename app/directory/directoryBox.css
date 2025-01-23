@@ -11,3 +11,10 @@
     box-shadow: inset 0px 0px 10px #7d19eb;
     font-size: xx-large;
 }
+
+.directoryBoxHolder {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 20px;
+    justify-content: center;
+}

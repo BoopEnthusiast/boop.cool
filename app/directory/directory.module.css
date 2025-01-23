@@ -5,3 +5,10 @@
     align-items: center;
     background-color: #fbe9fa;
 }
+
+.directoryBoxHolder {
+    background-color: magenta;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
