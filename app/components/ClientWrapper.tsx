@@ -84,6 +84,13 @@ export default function ClientWrapper() {
           <Text x={2.1} y={-0.7} z={0.5} text='Micro Necro' color='#7d19eb' isLink link='/directory/games/'/>
           <Text x={2.1} y={-1} z={0.5} text='Zephyrinth' color='#7d19eb' isLink link='/directory/games/'/>
           <Text x={2.1} y={-1.3} z={0.5} text='Tetraduel' color='#7d19eb' isLink link='/directory/games/'/>
+
+          {/* Code box */}
+          <Box width={3} height={2} depth={1} x={-3.5} y={0.5} color='#e6abe3'/>
+          <Text scale={0.4} x={-4.9} y={1} z={0.5} text='Games' color='#7d19eb' isLink link='/directory/code'/>
+          <Text x={-4.9} y={0.6} z={0.5} text='Programming Language' color='#7d19eb' isLink link='/directory/code'/>
+
+
           <OrbitControls />
           <ambientLight intensity={0.5} />
           <directionalLight position={[3, 3, 5]} />
