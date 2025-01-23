@@ -9,7 +9,7 @@ export default function() {
     return (
         <div className='code-root'>
             <div className='code-section'>
-                <CodeBlock />
+                <CodeBlock link='https://github.com/BoopEnthusiast/My-Game'/>
             </div>
         </div>
     );

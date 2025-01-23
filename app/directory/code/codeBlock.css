@@ -1,6 +1,9 @@
 .code-block {
     background-color: magenta;
     border-radius: 30px;
+    margin: 10px;
     padding: 10px;
-    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 20px;
 }

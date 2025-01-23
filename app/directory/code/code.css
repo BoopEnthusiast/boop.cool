@@ -1,5 +1,5 @@
 .code-root {
     display: flex;
     flex-direction: column;
-    width: 900px;
+    width: 100%;
 }
