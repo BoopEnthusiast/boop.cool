@@ -486,7 +486,10 @@ func form_actions(working_st: ScriptTree, tree_item: TreeItem) -> Array[Callable
 	print("Callable list: " + str(callable_list)) # Debug
 	# Pass the callable list back up the tree
 	return callable_list
-`]} languages={['gdscript', 'gdscript', 'gdscript', 'gdscript']}/>
+`]} languages={['gdscript', 'gdscript', 'gdscript', 'gdscript']} links={['https://github.com/BoopEnthusiast/My-Game/blob/main/globals/lang.gd', 
+    'https://github.com/BoopEnthusiast/My-Game/blob/main/language_scripts/tokenize_code.gd', 
+    'https://github.com/BoopEnthusiast/My-Game/blob/main/language_scripts/build_script_tree.gd',
+    'https://github.com/BoopEnthusiast/My-Game/blob/main/language_scripts/form_actions.gd']}/>
             </div>
         </div>
     );

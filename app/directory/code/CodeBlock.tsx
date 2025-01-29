@@ -7,9 +7,10 @@ interface CodeGridProps {
   titles: string[];
   codeExamples: string[];
   languages?: string[]; // Made optional
+  links: string[];
 }
 
-const CodeGrid: React.FC<CodeGridProps> = ({ titles, codeExamples, languages }) => {
+const CodeGrid: React.FC<CodeGridProps> = ({ titles, codeExamples, languages, links }) => {
   // Default to JavaScript if languages prop is not provided
   const resolvedLanguages = languages || Array(titles.length).fill('javascript');
 
@@ -24,7 +25,7 @@ const CodeGrid: React.FC<CodeGridProps> = ({ titles, codeExamples, languages }) 
         {titles.map((title, index) => (
           <div key={index} className="card">
             <div className="card-header">
-              <h3 className="card-title">{title}</h3>
+              <a href={links[index]}><h3 className="card-title">{title}</h3></a>
             </div>
             <div className="card-content">
               <div className="code-block">
