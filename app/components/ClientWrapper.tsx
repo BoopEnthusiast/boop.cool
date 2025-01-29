@@ -59,7 +59,7 @@ export default function ClientWrapper() {
           <AdaptiveEvents />
 
           {/* Intro box */}
-          <Box width={3} height={2.2} depth={0.5} y={0.95} z={0.75} color='#9b15f6'/>
+          <Box width={3} height={2.2} depth={0.5} y={0.95} z={0.75} color='#000000'/>
           <Text scale={0.3} x={-1.4} y={1.7} z={1} color='#fbe9fa' hasOutline={true}/>
           <Text x={-1.4} y={1.4} z={1} text='Use mouse/touch' color='#e6e7c9'/>
           <Text x={-1.4} y={1.19} z={1} text='controls to move.' color='#e6e7c9'/>
@@ -71,25 +71,30 @@ export default function ClientWrapper() {
           <Text x={0.1} y={0.8} z={0.5} rotY={Math.PI} text=':3' color='#f4def6'/>
 
           {/* Games box */}
-          <Box width={3} height={4} depth={1} x={3.5} y={0.5} color='#e6abe3'/>
-          <Text scale={0.4} x={2.1} y={2} z={0.5} text='Games' color='#7d19eb' isLink link='/directory/games'/>
-          <Text x={2.1} y={1.7} z={0.5} text='Tragedy!_' color='#7d19eb' isLink link='/directory/games'/>
-          <Text x={2.1} y={1.4} z={0.5} text='Reverie Memory' color='#7d19eb' isLink link='/directory/games/'/>
-          <Text x={2.1} y={1.1} z={0.5} text='Snakerosion' color='#7d19eb' isLink link='/directory/games/'/>
-          <Text x={2.1} y={0.8} z={0.5} text='Space To Repair' color='#7d19eb' isLink link='/directory/games/'/>
-          <Text x={2.1} y={0.5} z={0.5} text="Breaking Partner's Dates" color='#7d19eb' isLink link='/directory/games/'/>
-          <Text x={2.1} y={0.2} z={0.5} text='Espionage Office' color='#7d19eb' isLink link='/directory/games/'/>
-          <Text x={2.1} y={-0.1} z={0.5} text='Flower Tower' color='#7d19eb' isLink link='/directory/games/'/>
-          <Text x={2.1} y={-0.4} z={0.5} text='Mycelium Melody' color='#7d19eb' isLink link='/directory/games/'/>
-          <Text x={2.1} y={-0.7} z={0.5} text='Micro Necro' color='#7d19eb' isLink link='/directory/games/'/>
-          <Text x={2.1} y={-1} z={0.5} text='Zephyrinth' color='#7d19eb' isLink link='/directory/games/'/>
-          <Text x={2.1} y={-1.3} z={0.5} text='Tetraduel' color='#7d19eb' isLink link='/directory/games/'/>
+          <Box width={3} height={4} depth={1} x={3.5} y={0.5} color='#fdd1fa'/>
+          <Text scale={0.4} x={2.1} y={2} z={0.5} text='Games' color='#000000' isLink link='/directory/games'/>
+          <Text x={2.1} y={1.7} z={0.5} text='Tragedy!_' color='#000000' isLink link='/directory/games'/>
+          <Text x={2.1} y={1.4} z={0.5} text='Reverie Memory' color='#000000' isLink link='/directory/games/'/>
+          <Text x={2.1} y={1.1} z={0.5} text='Snakerosion' color='#000000' isLink link='/directory/games/'/>
+          <Text x={2.1} y={0.8} z={0.5} text='Space To Repair' color='#000000' isLink link='/directory/games/'/>
+          <Text x={2.1} y={0.5} z={0.5} text="Breaking Partner's Dates" color='#000000' isLink link='/directory/games/'/>
+          <Text x={2.1} y={0.2} z={0.5} text='Espionage Office' color='#000000' isLink link='/directory/games/'/>
+          <Text x={2.1} y={-0.1} z={0.5} text='Flower Tower' color='#000000' isLink link='/directory/games/'/>
+          <Text x={2.1} y={-0.4} z={0.5} text='Mycelium Melody' color='#000000' isLink link='/directory/games/'/>
+          <Text x={2.1} y={-0.7} z={0.5} text='Micro Necro' color='#000000' isLink link='/directory/games/'/>
+          <Text x={2.1} y={-1} z={0.5} text='Zephyrinth' color='#000000' isLink link='/directory/games/'/>
+          <Text x={2.1} y={-1.3} z={0.5} text='Tetraduel' color='#000000' isLink link='/directory/games/'/>
 
           {/* Code box */}
-          <Box width={3} height={2} depth={1} x={-3.5} y={0.5} color='#e6abe3'/>
-          <Text scale={0.4} x={-4.9} y={1} z={0.5} text='Code' color='#7d19eb' isLink link='/directory/code'/>
-          <Text x={-4.9} y={0.6} z={0.5} text='Programming Language' color='#7d19eb' isLink link='/directory/code'/>
+          <Box width={3} height={2} depth={1} x={-3.5} y={0.5} color='#fdd1fa'/>
+          <Text scale={0.4} x={-4.9} y={1} z={0.5} text='Code' color='#000000' isLink link='/directory/code'/>
+          <Text x={-4.9} y={0.6} z={0.5} text='Programming Language' color='#000000' isLink link='/directory/code'/>
 
+          {/* Websites box */}
+          <Box width={3} height={2} depth={1} x={0} y={-1.3} color='#fdd1fa'/>
+          <Text scale={0.4} x={-1.4} y={-0.8} z={0.5} text='Websites' color='#000000'/>
+          <Text x={-1.4} y={-1.2} z={0.5} text='boop.website' color='#000000' isLink link='https://boop.website'/>
+          <Text x={-1.4} y={-1.5} z={0.5} text='boop.cool' color='#000000' isLink link='https://boop.cool'/>
 
           <OrbitControls />
           <ambientLight intensity={0.5} />

@@ -28,6 +28,11 @@ export default function Directory() {
                 items={[
                     'Programming Language'
                 ]}/>
+                <DirectoryBox title="Websites" description="My websites." link="https://boop.website"
+                items={[
+                    'boop.website',
+                    'boop.cool'
+                ]}/>
             </div>
         </>
     )
