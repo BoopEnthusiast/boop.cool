@@ -117,24 +117,6 @@ func compile_program_node(program_node: ProgramNode) -> Array:
 	var actions = form_actions_node.form_actions(tree_root, tree_root_item)
 	_show_compiling_errors()
 	return actions
-
-
-
-# The piece of code that should work FOR NOW
-# Input 1: "fireball" - leads to ball node
-# Input 2: "start" - leads to start node
-# Input 3: "transmutation" - leads to transmute node
-# Code for now:
-# spawn(fireball)
-# fireball.transmute(transmutation)
-# fireball.push(5 * 3 + 2)
-#
-# Code for later:
-# spawn(fireball)
-# fireball.set_on_fire() 
-# fireball.push((4 + 3) * 2)
-# while fireball:
-#     fireball.push(1) # moves fireball in direction player is facing, the cooldown so that the while loop isn't infinitely fast is the TTC (time to cast) for the push method on the ball
 `, `class_name LangTokenizeCode
 extends Node
 ## External code for the Lang Singleton
@@ -326,7 +308,6 @@ func tokenize_code(text: String) -> Array[Token]:
 	for token in tokenized_code:
 		print(token.types,"   ",token.string)
 	return tokenized_code
-
 `, `class_name LangBuildScriptTree
 extends Node
 ## External code for the Lang Singleton
