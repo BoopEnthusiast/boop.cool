@@ -95,6 +95,8 @@ export default function ClientWrapper() {
           <Text scale={0.4} x={-1.4} y={-0.8} z={0.5} text='Websites' color='#000000'/>
           <Text x={-1.4} y={-1.2} z={0.5} text='boop.website' color='#000000' isLink link='https://boop.website'/>
           <Text x={-1.4} y={-1.5} z={0.5} text='boop.cool' color='#000000' isLink link='https://boop.cool'/>
+          <Text x={-1.4} y={-1.8} z={0.5} text='boop.pink' color='#000000' isLink link='https://boop.pink'/>
+          <Text x={-1.4} y={-2.1} z={0.5} text='tilde.town/~boop' color='#000000' isLink link='https://tilde.town/~boop/'/>
 
           <OrbitControls />
           <ambientLight intensity={0.5} />

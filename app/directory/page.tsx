@@ -31,7 +31,9 @@ export default function Directory() {
                 <DirectoryBox title="Websites" description="My websites." link="https://boop.website"
                 items={[
                     'boop.website',
-                    'boop.cool'
+                    'boop.cool',
+                    'boop.pink',
+                    'tilde.town/~boop'
                 ]}/>
             </div>
         </>
